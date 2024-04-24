@@ -1,2 +1,3 @@
 # SquadRangefinder
  
+So, this is a distance calculator for playing squad. Here we use landmarks on the map such as marks of equipment or infantry. By running the program in the background, we can open the map in the game using the capslock key (not through M). We must enlarge the map once using the (n) key, thereby achieving the required scale for the code to work correctly. Afterwards, we hold down alt and left-click on ourselves and on the landmark we need on the map, thereby the program calculates the length in pixels and then converts it into meters. Subsequently, the received meters in the form of text are transferred to “text to speech” to tell you the distance in meters.
