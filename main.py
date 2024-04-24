@@ -9,6 +9,11 @@ class MouseClickTracker:
         self.positions = []
         self.alt_pressed = False
 
+    # "Brief" description for these variables:
+    # And so, we must open the card through capslock (not through M), since this card has more functionality.
+    # We can enlarge the map several times, and now the code uses a variable with the first enlargement of the map through the key (n).
+    # These variables are the length in pixels of one square from the grid of this map
+
     px_firstPosN = 72 # Initial map view
     px_secondPosN = 294 # First card upgrade
     px_thirdPosN = 207 # Second card upgrade
